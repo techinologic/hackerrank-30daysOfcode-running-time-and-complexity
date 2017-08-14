@@ -5,6 +5,8 @@ public class Solution {
     private static boolean isPrime(int n) {
         //check if n is a multiple of 2,
         // knowing if even nums are prime is trivial
+        if (n == 1) return false;
+        if (n == 2) return true;
         if (n % 2 == 0) return false;
         //then check the odds
         for (int i = 3; i * i <= n; i += 2) {
