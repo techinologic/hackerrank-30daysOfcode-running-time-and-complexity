@@ -21,14 +21,14 @@ public class Solution {
 
         //stores input into int array for individual processing
         int[] nums = new int[input];
-        for (int i = 0; i < input; i++) {
-            nums[i] = sc.nextInt();
-        }
+        for (int i = 0; i < input; i++) nums[i] = sc.nextInt();
         sc.close();
 
-        // checks each element of the array for primality
-        // "for each i, inside of nums arrays, if isPrime
-        // is true, print appropriate message"
+        /*
+        checks each element of the array for primality
+        "for each i, inside of nums arrays, if isPrime
+        is true, print appropriate message"
+        */
         for (int i :
                 nums) {
             if (isPrime(i)) {
