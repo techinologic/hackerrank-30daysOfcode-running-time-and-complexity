@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Solution {
 
-    static boolean isPrime(int n) {
+    private static boolean isPrime(int n) {
         //check if n is a multiple of 2,
         // knowing if even nums are prime is trivial
         if (n % 2 == 0) return false;
